@@ -11,10 +11,6 @@ public class DefaultCountingOutRhymer {
             numbers[++total] = in;
     }
 
-    public int getTotal() {
-        return total;
-    }
-
     public boolean isEmpty() {
         return total == -1;
     }
