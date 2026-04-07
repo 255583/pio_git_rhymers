@@ -4,7 +4,7 @@ public class DefaultCountingOutRhymer {
 
     public static final int empt = -1;
     public static final int max = 11;
-    private int[] numbers = new int[max+1];
+    private final int[] numbers = new int[max+1];
 
     private int total = empt;
 
