@@ -1,5 +1,10 @@
 package edu.kis.vh.nursery;
 
+/**
+ * Klasa DefaultCountingOutRhymer implementuje podstawową strukturę danych działającą na zasadzie stosu.
+ * Służy do przechowywania liczb całkowitych z góry określoną maksymalną pojemnością.
+ * Umożliwia dodawanie nowych wartości, sprawdzanie szczytu stosu oraz ich zdejmowanie.
+ */
 public class DefaultCountingOutRhymer {
 
     public static final int empt = -1;
