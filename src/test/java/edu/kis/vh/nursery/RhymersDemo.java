@@ -12,7 +12,7 @@ class RhymersDemo {
 
     }
 
-    
+
     private static void testRhymers(Rhymersfactory factory) {
         DefaultCountingOutRhymer[] rhymers = { factory.GetStandardRhymer(), factory.GetFalseRhymer(),
                 factory.GetFIFORhymer(), factory.GetHanoiRhymer()};
@@ -36,3 +36,5 @@ class RhymersDemo {
     }
 
 }
+
+// PROJEKT JEST POPRAWNY, TESTY PRZECHODZĄ POMYŚLNIE
